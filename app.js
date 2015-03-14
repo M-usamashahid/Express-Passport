@@ -1,7 +1,7 @@
 /**
  * Created by M.UsamaShahid on 11-Mar-15.
  */
-var config = require('./UserConfig');
+var config = require('./userConfig');
 
 var express         = require('express'),
     bodyParser      = require('body-parser'),
