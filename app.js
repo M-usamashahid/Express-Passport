@@ -10,6 +10,17 @@ var express         = require('express'),
 
 var app = express();
 
+if (process.env.NODE_ENV === 'development') {
+    //app.use(morgan('dev'));
+} else if (process.env.NODE_ENV === 'production') {
+    //app.use(compress());
+}
+
+app.use(bodyParser.urlencoded({
+    extended : true
+}));
+
+app.use(bodyParser.json());
 
 var port = 3000;
 app.listen(port);
