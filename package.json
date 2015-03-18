@@ -13,7 +13,9 @@
     "body-parser": "*",
     "cookie-parser": "*",
     "express-session": "*",
-    "ejs": "*"
+    "ejs": "*",
+    "mongoose": "*",
+    "q": "*"
 
   }
 }

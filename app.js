@@ -2,7 +2,7 @@
  * Created by M.UsamaShahid on 11-Mar-15.
  */
 
-    /*--------------------- Files Requires Section Start----------------------------------------*/
+/* Files Requires Section Start----------------------------------------*/
 
 var express             = require('express'),
     bodyParser          = require('body-parser'),
@@ -13,9 +13,7 @@ var config              = require('./userConfig');
 var IndexController     = require("./controllers/Index/indexController").Quiz.Controllers.index;
 
 
-/*--------------------- Files Requires Section End----------------------------------------*/
-
-
+/* Files Requires Section End----------------------------------------*/
 
 
 var app = express();    // calling express
@@ -41,7 +39,7 @@ app.set('view engine', 'ejs');         // Set View Engine ejs
 
 
 
-/*---------------------------------------------------------------- ROUTES FUNCTIONS Start 17-march-2015--------------------------------------------------------------------*/
+/* ROUTES FUNCTIONS Start 17-march-2015--------------------------------------------------*/
 
 /*================== Index ROUTES===================*/
 require("./routes/Index/indexRoutes").Quiz.Routes.index.initIndexRoutes(app);
@@ -49,13 +47,13 @@ require("./routes/Index/indexRoutes").Quiz.Routes.index.initIndexRoutes(app);
 
 
 app.get("*",IndexController.redirectIndex );
-/*---------------------------------------------------------------- ROUTES FUNCTIONS End--------------------------------------------------------------------*/
+/* ROUTES FUNCTIONS End------------------------------------------------------------------*/
 
 
 
 
 
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 4000;
 app.listen(port, function(){
     console.log("Listening on " + port);
 });
