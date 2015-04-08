@@ -9,13 +9,19 @@
   "author": "usama",
   "license": "ISC",
   "dependencies": {
-    "express": "*",
+    "bcrypt-nodejs": "latest",
     "body-parser": "*",
     "cookie-parser": "*",
-    "express-session": "*",
     "ejs": "*",
+    "express": "*",
+    "express-session": "*",
     "mongoose": "*",
+    "mongoose-session": "0.0.3",
+    "passport": "~0.1.17",
+    "passport-facebook": "~1.0.2",
+    "passport-google-oauth": "~0.1.5",
+    "passport-local": "~0.1.6",
+    "passport-twitter": "~1.0.2",
     "q": "*"
-
   }
 }

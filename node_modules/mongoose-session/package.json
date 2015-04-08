@@ -1,0 +1,45 @@
+{
+  "name": "mongoose-session",
+  "version": "0.0.3",
+  "author": {
+    "name": "Chance Dickson",
+    "email": "me@chncdcksn.com",
+    "url": "http://chncdcksn.com"
+  },
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chncdcksn/mongoose-session.git"
+  },
+  "dependencies": {
+    "express-session": "~1.8.2"
+  },
+  "gitHead": "0db7279227a59436c791397e7f143735a7237cd1",
+  "description": "Express 4 Middleware for MongoDB Session Storage using the Mongoose ODM",
+  "bugs": {
+    "url": "https://github.com/chncdcksn/mongoose-session/issues"
+  },
+  "homepage": "https://github.com/chncdcksn/mongoose-session",
+  "_id": "mongoose-session@0.0.3",
+  "scripts": {},
+  "_shasum": "6e870af927d643e548ab9131631a8bb61ab6be2c",
+  "_from": "mongoose-session@",
+  "_npmVersion": "2.1.18",
+  "_nodeVersion": "0.10.35",
+  "_npmUser": {
+    "name": "chncdcksn",
+    "email": "me@chncdcksn.com"
+  },
+  "maintainers": [
+    {
+      "name": "chncdcksn",
+      "email": "me@chncdcksn.com"
+    }
+  ],
+  "dist": {
+    "shasum": "6e870af927d643e548ab9131631a8bb61ab6be2c",
+    "tarball": "http://registry.npmjs.org/mongoose-session/-/mongoose-session-0.0.3.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/mongoose-session/-/mongoose-session-0.0.3.tgz"
+}
