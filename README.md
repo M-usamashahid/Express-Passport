@@ -1,3 +1,3 @@
 # Express-Structure
-its the basic and best distributed structure using Node - Express - MongoDB - Mongoose - Jquery - EJS
+its the basic and best distributed structure using Node - Express - Passport - MongoDB - Mongoose - Jquery - EJS
 .
